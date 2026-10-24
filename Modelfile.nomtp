@@ -1,0 +1,8 @@
+FROM E:\Ollama\models\blobs\sha256-a8bdd07a49b895083bb1420bb895ad9ab3e3b8f7d5cc42c7582ca0fa765eede2
+FROM E:\Ollama\models\blobs\sha256-7e78b02d928be76d0db72d23ba011aeae7fcdd9488358fd83741a8fd10b8556d
+TEMPLATE {{ .Prompt }}
+RENDERER gemma4
+PARSER gemma4
+PARAMETER temperature 1
+PARAMETER top_k 64
+PARAMETER top_p 0.95

@@ -1,0 +1,118 @@
+[
+ {
+  "model": "hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-IQ4_XS",
+  "moe": {
+   "general.architecture": "qwen35moe",
+   "general.parameter_count": 34660610688,
+   "qwen35moe.block_count": 40,
+   "qwen35moe.context_length": 262144,
+   "qwen35moe.expert_count": 256,
+   "qwen35moe.expert_used_count": 8
+  },
+  "isinma": {
+   "load_s": 10.34,
+   "prompt_tok": 23,
+   "prompt_tok_s": 2.9,
+   "eval_tok": 3,
+   "gen_tok_s": 52.1
+  },
+  "ps": [
+   {
+    "name": "hf.co/unsloth/Qwen3.6-35B-A3B-GGUF:UD-IQ4_XS",
+    "size_gb": 19.03,
+    "vram_gb": 19.03
+   }
+  ],
+  "uretim": [
+   {
+    "load_s": 0.0,
+    "prompt_tok": 54,
+    "prompt_tok_s": 667.5,
+    "eval_tok": 600,
+    "gen_tok_s": 126.1
+   },
+   {
+    "load_s": 0.0,
+    "prompt_tok": 54,
+    "prompt_tok_s": 673.6,
+    "eval_tok": 600,
+    "gen_tok_s": 126.4
+   }
+  ],
+  "okuma": [
+   {
+    "load_s": 0.0,
+    "prompt_tok": 12380,
+    "prompt_tok_s": 3386.0,
+    "eval_tok": 2,
+    "gen_tok_s": 147.3
+   },
+   {
+    "load_s": 0.0,
+    "prompt_tok": 12380,
+    "prompt_tok_s": 3372.4,
+    "eval_tok": 2,
+    "gen_tok_s": 130.4
+   }
+  ],
+  "vram_mb": 20335
+ },
+ {
+  "model": "gemma4:26b",
+  "moe": {
+   "gemma4.block_count": 30,
+   "gemma4.context_length": 262144,
+   "gemma4.expert_count": 128,
+   "gemma4.expert_used_count": 8,
+   "general.architecture": "gemma4",
+   "general.parameter_count": 25233142046
+  },
+  "isinma": {
+   "load_s": 42.94,
+   "prompt_tok": 22,
+   "prompt_tok_s": 73.3,
+   "eval_tok": 3,
+   "gen_tok_s": 50.7
+  },
+  "ps": [
+   {
+    "name": "gemma4:26b",
+    "size_gb": 1.14,
+    "vram_gb": 1.14
+   }
+  ],
+  "uretim": [
+   {
+    "load_s": 0.0,
+    "prompt_tok": 50,
+    "prompt_tok_s": 930.3,
+    "eval_tok": 600,
+    "gen_tok_s": 144.9
+   },
+   {
+    "load_s": 0.0,
+    "prompt_tok": 50,
+    "prompt_tok_s": 898.3,
+    "eval_tok": 600,
+    "gen_tok_s": 139.5
+   }
+  ],
+  "okuma": [
+   {
+    "load_s": 0.0,
+    "prompt_tok": 11717,
+    "prompt_tok_s": 3814.5,
+    "eval_tok": 4,
+    "gen_tok_s": 181.5
+   },
+   {
+    "load_s": 0.0,
+    "prompt_tok": 11717,
+    "prompt_tok_s": 3784.9,
+    "eval_tok": 4,
+    "gen_tok_s": 190.3
+   }
+  ],
+  "vram_mb": 21192
+ }
+]
